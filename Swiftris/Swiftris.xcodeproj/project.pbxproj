@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F63F8A351AE9D5E800705376 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A341AE9D5E800705376 /* Sounds */; };
+		F63F8A371AE9D5F900705376 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A361AE9D5F900705376 /* Sprites.atlas */; };
+		F63F8A3E1AE9D63100705376 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A381AE9D63100705376 /* background.png */; };
+		F63F8A3F1AE9D63100705376 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A391AE9D63100705376 /* background@2x.png */; };
+		F63F8A401AE9D63100705376 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A3A1AE9D63100705376 /* gameboard.png */; };
+		F63F8A411AE9D63100705376 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A3B1AE9D63100705376 /* gameboard@2x.png */; };
+		F63F8A421AE9D63100705376 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A3C1AE9D63100705376 /* whitebg.png */; };
+		F63F8A431AE9D63100705376 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F63F8A3D1AE9D63100705376 /* whitebg@2x.png */; };
 		F69767E01AE9CFE300A9BFC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69767DF1AE9CFE300A9BFC1 /* AppDelegate.swift */; };
 		F69767E41AE9CFE300A9BFC1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69767E31AE9CFE300A9BFC1 /* GameScene.swift */; };
 		F69767E61AE9CFE300A9BFC1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69767E51AE9CFE300A9BFC1 /* GameViewController.swift */; };
@@ -27,6 +35,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F63F8A341AE9D5E800705376 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		F63F8A361AE9D5F900705376 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		F63F8A381AE9D63100705376 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		F63F8A391AE9D63100705376 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		F63F8A3A1AE9D63100705376 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		F63F8A3B1AE9D63100705376 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		F63F8A3C1AE9D63100705376 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
+		F63F8A3D1AE9D63100705376 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		F69767DA1AE9CFE300A9BFC1 /* Swiftris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69767DE1AE9CFE300A9BFC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69767DF1AE9CFE300A9BFC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +101,8 @@
 				F69767E71AE9CFE300A9BFC1 /* Main.storyboard */,
 				F69767EA1AE9CFE300A9BFC1 /* Images.xcassets */,
 				F69767EC1AE9CFE300A9BFC1 /* LaunchScreen.xib */,
+				F63F8A361AE9D5F900705376 /* Sprites.atlas */,
+				F63F8A341AE9D5E800705376 /* Sounds */,
 				F69767DD1AE9CFE300A9BFC1 /* Supporting Files */,
 			);
 			path = Swiftris;
@@ -93,6 +111,12 @@
 		F69767DD1AE9CFE300A9BFC1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F63F8A381AE9D63100705376 /* background.png */,
+				F63F8A391AE9D63100705376 /* background@2x.png */,
+				F63F8A3A1AE9D63100705376 /* gameboard.png */,
+				F63F8A3B1AE9D63100705376 /* gameboard@2x.png */,
+				F63F8A3C1AE9D63100705376 /* whitebg.png */,
+				F63F8A3D1AE9D63100705376 /* whitebg@2x.png */,
 				F69767DE1AE9CFE300A9BFC1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,9 +219,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F63F8A411AE9D63100705376 /* gameboard@2x.png in Resources */,
 				F69767EE1AE9CFE300A9BFC1 /* LaunchScreen.xib in Resources */,
+				F63F8A3E1AE9D63100705376 /* background.png in Resources */,
+				F63F8A401AE9D63100705376 /* gameboard.png in Resources */,
 				F69767EB1AE9CFE300A9BFC1 /* Images.xcassets in Resources */,
+				F63F8A3F1AE9D63100705376 /* background@2x.png in Resources */,
+				F63F8A351AE9D5E800705376 /* Sounds in Resources */,
 				F69767E91AE9CFE300A9BFC1 /* Main.storyboard in Resources */,
+				F63F8A421AE9D63100705376 /* whitebg.png in Resources */,
+				F63F8A431AE9D63100705376 /* whitebg@2x.png in Resources */,
+				F63F8A371AE9D5F900705376 /* Sprites.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
